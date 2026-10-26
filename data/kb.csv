@@ -1,0 +1,129 @@
+common_name,irritancy_lvl,comedogenic,pregnancy_safe,vegan,is_active,evidence_level,time_of_use,pairs_well_with,avoid_with,limitations,skin_types_set
+Adapalene,2,0,avoid,yes,True,strong,PM,Niacinamide; Hyaluronic Acid; Benzoyl Peroxide; Ceramides,Glycolic Acid; Salicylic Acid; Ascorbic Acid (Vitamin C),Initial purging and dryness; Avoid in pregnancy,acne-prone;combination;oily
+Allantoin,0,0,safe,yes,True,moderate,AM/PM,Panthenol; Niacinamide; Centella Asiatica,,Extremely well tolerated,acne-prone;all;dry;sensitive
+Aloe Vera,0,0,safe,yes,True,moderate,AM/PM,Hyaluronic Acid; Niacinamide; Centella Asiatica,,Possible allergy in latex-sensitive individuals,acne-prone;all;oily;sensitive
+Alpha Arbutin,0,0,caution,yes,True,moderate,AM/PM,Niacinamide; Vitamin C; Tranexamic Acid; Hyaluronic Acid,,"Slow, gradual results",all;mature;sensitive
+Argan Oil,0,0,safe,yes,True,limited,AM/PM,Vitamin E; Squalane,,Mildly comedogenic for some,dry;mature;normal
+Argireline,0,0,caution,yes,True,limited,AM/PM,Matrixyl; Hyaluronic Acid; Niacinamide,,Effects are temporary and subtle,all;mature;normal
+Ascorbyl Glucoside,0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Vitamin E; Ferulic Acid,,Milder and slower than pure LAA,all;normal;sensitive
+Astaxanthin,0,0,safe,yes,True,moderate,AM/PM,Vitamin C; Vitamin E; Niacinamide,,Can tint products red; oxidizes,all;mature;normal
+Avobenzone,0,0,caution,yes,False,strong,AM,Octocrylene; Tinosorb S,,Photo-unstable alone; must be stabilized,all;combination;normal;oily
+Azelaic Acid,0,1,safe,yes,True,strong,AM/PM,Niacinamide; Hyaluronic Acid; Salicylic Acid,,Temporary tingling or dryness when starting,acne-prone;all;combination;sensitive
+Bakuchiol,0,1,caution,yes,True,moderate,AM/PM,Vitamin C; Niacinamide; Hyaluronic Acid; Peptides,,Less clinical data than retinol,all;dry;mature;sensitive
+Beeswax,0,2,safe,no,True,moderate,AM/PM,Shea Butter; Squalane,,Not vegan,dry;normal;sensitive
+Benzoyl Peroxide,2,0,caution,yes,True,strong,AM/PM,Niacinamide; Hyaluronic Acid; Adapalene,Retinol; Ascorbic Acid (Vitamin C); Salicylic Acid,Drying and irritating; Bleaches fabrics; Deactivates if layered with vitamin C or retinol,acne-prone;combination;oily
+Beta-Glucan,0,0,safe,yes,True,moderate,AM/PM,Hyaluronic Acid; Niacinamide; Centella Asiatica,,Often cited as gentler and more soothing than hyaluronic acid,all;dry;mature;sensitive
+Betaine,0,0,safe,yes,True,moderate,AM/PM,Hyaluronic Acid; Glycerin; Niacinamide,,Very well tolerated,all;dry;sensitive
+Bisabolol,0,0,safe,yes,True,moderate,AM/PM,Centella Asiatica; Allantoin; Niacinamide,,Well tolerated,acne-prone;all;sensitive
+Butylene Glycol,0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid,,Rare sensitivity,all;combination;oily
+Caffeine,0,0,safe,yes,True,moderate,AM,Niacinamide; Hyaluronic Acid; Vitamin C,,Effects on dark circles are temporary,all;mature;normal
+Calendula Extract,0,0,safe,yes,True,limited,AM/PM,Calendula; Panthenol; Allantoin,,Possible allergy for Asteraceae-sensitive users,all;dry;sensitive
+Caprylic/Capric Triglyceride,0,1,safe,yes,False,moderate,AM/PM,Squalane; Vitamin E; Tocopherol,,Mildly comedogenic for very acne-prone skin,all;combination;dry;normal
+Caprylyl Glycol,0,0,safe,yes,True,moderate,AM/PM,Phenoxyethanol; Ethylhexylglycerin,,Well tolerated,all;dry;sensitive
+Carbomer,0,0,safe,yes,False,moderate,AM/PM,Sodium Hydroxide; Triethanolamine,,Needs neutralizing base to thicken,all
+Centella Asiatica (Cica),0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid; Panthenol; Retinol,,Very well tolerated,acne-prone;all;dry;sensitive
+Ceramide NP,0,0,safe,varies,True,strong,AM/PM,Cholesterol; Fatty acids; Niacinamide; Retinol,,Works best blended with cholesterol and fatty acids,all;dry;mature;sensitive
+Cetearyl Alcohol,0,2,safe,yes,True,moderate,AM/PM,Cetyl Alcohol; Glyceryl Stearate,,Rare contact sensitivity,all;dry;normal
+Cetyl Alcohol,0,2,safe,yes,True,moderate,AM/PM,Cetearyl Alcohol; Glyceryl Stearate,,Rare sensitivity; not the same as drying SD alcohol,all;dry;normal
+Chamomile Extract,0,0,safe,yes,True,limited,AM/PM,Bisabolol; Allantoin; Panthenol,,Possible allergy for Asteraceae-sensitive users,all;dry;sensitive
+Cholesterol,0,0,safe,varies,True,strong,AM/PM,Ceramide NP; Phytosphingosine; Fatty acids,,Best in 3:1:1 ratio with ceramides and fatty acids,all;dry;mature;sensitive
+Citric Acid,1,0,safe,yes,False,moderate,PM,Hyaluronic Acid; Niacinamide,Retinol,Can irritate at high concentrations; Photosensitizing as an exfoliant,combination;normal;oily
+Cocamidopropyl Betaine,0,0,safe,yes,False,moderate,AM/PM,Coco-Glucoside; Sodium Cocoyl Isethionate,,Possible sensitivity from impurities in some grades,all;normal;sensitive
+Coco-Glucoside,0,0,safe,yes,False,moderate,AM/PM,Cocamidopropyl Betaine; Decyl Glucoside,,Lower foam than sulfates,all;dry;sensitive
+Cocoa Butter,0,4,safe,yes,True,moderate,AM/PM,Shea Butter; Vitamin E,,Comedogenic; avoid on acne-prone face,dry;normal
+Coconut Oil,0,4,safe,yes,True,moderate,AM/PM,Shea Butter; Vitamin E,,Highly comedogenic; avoid on face if acne-prone,dry;normal
+Coenzyme Q10,0,0,safe,yes,True,moderate,AM/PM,Vitamin E; Vitamin C; Niacinamide,,Oxidizes; stabilize well,all;mature;normal
+Colloidal Oatmeal,0,0,safe,yes,True,strong,AM/PM,Ceramides; Glycerin; Beta-Glucan,,Avoid if oat-allergic,all;dry;sensitive
+Copper Peptide (GHK-Cu),0,0,caution,yes,True,moderate,AM/PM,Hyaluronic Acid; Niacinamide,Ascorbic Acid (Vitamin C); Glycolic Acid; Retinol,May deactivate vitamin C and direct acids if layered together,all;mature;normal
+Decyl Glucoside,0,0,safe,yes,False,moderate,AM/PM,Coco-Glucoside; Cocamidopropyl Betaine,,Higher pH; pair with acids to balance,all;dry;sensitive
+Denatured Alcohol,1,0,safe,yes,False,moderate,AM/PM,,,Drying and potentially barrier-damaging at high levels; Different from fatty alcohols,combination;oily
+Dimethicone,0,1,safe,yes,True,strong,AM/PM,Most actives; Niacinamide,,Can feel occlusive; wash off well to avoid buildup,all;combination;normal;oily
+Disodium EDTA,0,0,safe,yes,False,moderate,AM/PM,Most preservative systems,,Used at tiny amounts; well tolerated,all
+Ectoin,0,0,safe,yes,True,moderate,AM/PM,Hyaluronic Acid; Niacinamide; Ceramide NP,,Premium ingredient,all;dry;mature;sensitive
+Ethylhexylglycerin,0,0,safe,yes,False,moderate,AM/PM,Phenoxyethanol; Caprylyl Glycol,,Rare sensitivity,all;sensitive
+Ferulic Acid,0,0,safe,yes,True,strong,AM,Ascorbic Acid (Vitamin C); Vitamin E; Resveratrol,,Oxidizes; needs stable formula,all;mature;normal
+Fragrance,2,0,caution,varies,False,strong,AM/PM,,,A leading cause of contact allergy and irritation; Avoid for sensitive/eczema-prone skin,normal
+Gluconolactone (PHA),0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid; Ceramides,,Slower results than AHAs,all;dry;sensitive
+Glutathione,0,0,caution,varies,True,limited,AM/PM,Vitamin C; Niacinamide; Alpha Arbutin,,Unstable; oral/IV claims are controversial,all;mature;normal
+Glycerin,0,0,safe,varies,True,strong,AM/PM,Hyaluronic Acid; Niacinamide; Ceramides; Almost everything,,Sticky feel at very high concentrations,all;dry;oily;sensitive
+Glyceryl Stearate,0,1,safe,varies,False,moderate,AM/PM,Cetearyl Alcohol; Cetyl Alcohol,,Well tolerated,all;dry;normal
+Glycolic Acid,2,0,safe,yes,True,strong,PM,Hyaluronic Acid; Niacinamide; Ceramides,Retinol; Ascorbic Acid (Vitamin C); Salicylic Acid; Benzoyl Peroxide,Increases sun sensitivity; Stings sensitive or compromised skin,combination;mature;normal;oily
+Glycyrrhetinic Acid,0,0,safe,yes,True,moderate,AM/PM,Licorice Root Extract; Centella Asiatica; Niacinamide,,Well tolerated,all;dry;sensitive
+Grapeseed Oil,0,1,safe,yes,True,limited,AM/PM,Squalane; Vitamin E,,Oxidizes relatively quickly,acne-prone;combination;normal;oily
+Green Tea Extract,0,0,safe,yes,True,moderate,AM/PM,Vitamin C; Niacinamide; Vitamin E,,Oxidizes; needs stable formulation,acne-prone;all;oily;sensitive
+Homosalate,0,0,caution,yes,False,strong,AM,Avobenzone; Octisalate,,UVB only; EU concentration limits under review,all;normal;oily
+Honey,0,0,safe,no,True,limited,AM/PM,Aloe Vera; Oat Extract; Glycerin,,Not vegan; Rare allergy for bee-product-sensitive users,acne-prone;all;dry;sensitive
+Hyaluronic Acid,0,0,safe,yes,True,strong,AM/PM,Niacinamide; Retinol; Vitamin C; Ceramides; Peptides,,Can draw moisture out of skin in very dry climates if not sealed with moisturizer,all;dry;oily;sensitive
+Hydrolyzed Collagen,0,0,safe,no,True,limited,AM/PM,Hyaluronic Acid; Glycerin; Peptides,,Does not replace skin's own collagen; works on the surface,all;dry;mature;normal
+Hydroquinone,2,0,avoid,yes,True,strong,PM,Sunscreen,Benzoyl Peroxide; Ascorbic Acid (Vitamin C),Regulated/banned OTC in EU; Irritation and ochronosis risk with overuse; Use only under guidance,combination;normal
+Hydroxyethylcellulose,0,0,safe,yes,False,moderate,AM/PM,Xanthan Gum; Carbomer,,Functional ingredient; no active benefit,all
+Isopropyl Myristate,0,5,safe,yes,False,moderate,AM/PM,Emollient blends,,Highly comedogenic; avoid if acne-prone,dry;normal
+Jojoba Oil,0,2,safe,yes,True,moderate,AM/PM,Squalane; Vitamin E; Retinol,,Generally non-comedogenic,acne-prone;all;combination;dry;oily
+Kojic Acid,1,0,caution,yes,True,moderate,AM/PM,Vitamin C; Niacinamide; Alpha Arbutin,,Can sensitize skin; Unstable; oxidizes and discolors,combination;normal;oily
+Lactic Acid,1,0,safe,varies,True,strong,PM,Hyaluronic Acid; Niacinamide; Ceramides,Retinol; Ascorbic Acid (Vitamin C); Benzoyl Peroxide,Photosensitizing; Can sting on application,dry;mature;normal;sensitive
+Lactobacillus Ferment (Probiotic),0,0,safe,varies,True,limited,AM/PM,Beta-Glucan; Niacinamide; Hyaluronic Acid,,Emerging evidence,all;dry;sensitive
+Lactobionic Acid (PHA),0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid; Ceramides,,Premium ingredient; slower than AHAs,all;dry;mature;sensitive
+Lanolin,1,1,safe,no,True,moderate,PM,Glycerin; Ceramides,,Not vegan; Possible allergy for wool-sensitive users,dry;mature;normal
+Licorice Root Extract,0,0,safe,yes,True,moderate,AM/PM,Vitamin C; Niacinamide; Alpha Arbutin,,Well tolerated,all;mature;sensitive
+Madecassoside,0,0,safe,yes,True,moderate,AM/PM,Centella Asiatica; Niacinamide; Panthenol,,Very well tolerated,acne-prone;all;dry;sensitive
+Magnesium Ascorbyl Phosphate (MAP),0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid; Vitamin E,,Milder effect than pure LAA,all;dry;sensitive
+Mandarin Orange Extract,1,0,safe,yes,True,limited,AM/PM,Vitamin C; Niacinamide,,Citrus extracts may be photosensitizing or irritating for some,all;combination;normal
+Mandelic Acid,0,0,safe,yes,True,moderate,PM,Niacinamide; Hyaluronic Acid,Retinol; Ascorbic Acid (Vitamin C),Mild photosensitivity,acne-prone;combination;oily;sensitive
+Marula Oil,0,3,safe,yes,True,limited,AM/PM,Squalane; Vitamin E,,High oleic content may not suit very acne-prone skin,dry;mature;normal
+Matrixyl,0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid; Vitamin C,Direct acids (low pH),Needs consistent long-term use,all;dry;mature;sensitive
+Mineral Oil,0,1,safe,yes,True,strong,AM/PM,Glycerin; Hyaluronic Acid,,Heavy feel; cosmetic-grade is non-comedogenic despite myths,dry;normal;sensitive
+Mugwort Extract,0,0,caution,yes,True,limited,AM/PM,Centella Asiatica; Panthenol; Niacinamide,,Possible allergy for Asteraceae-sensitive users,all;dry;sensitive
+Niacinamide,0,0,safe,yes,True,strong,AM/PM,Hyaluronic Acid; Salicylic Acid; Zinc; Retinol; Hyaluronic Acid,,Very high concentrations (>10%) can cause flushing or irritation in some users,acne-prone;all;oily;sensitive
+Octinoxate,0,0,caution,yes,False,strong,AM,Avobenzone; Octisalate,,No UVA coverage; Banned in some reef regions; Photo-degrades,all;normal;oily
+Octisalate,0,0,caution,yes,False,strong,AM,Avobenzone; Octocrylene; Homosalate,,UVB only; needs UVA partners,all;normal;oily
+Octocrylene,0,0,caution,yes,False,strong,AM,Avobenzone; Homosalate,,Possible contact allergy; degrades over years of storage,all;normal;oily
+Palmitoyl Tetrapeptide-7,0,0,safe,yes,True,moderate,AM/PM,Palmitoyl Tripeptide-1; Niacinamide; Hyaluronic Acid,,Gradual results,all;mature;sensitive
+Palmitoyl Tripeptide-1,0,0,safe,yes,True,moderate,AM/PM,Palmitoyl Tetrapeptide-7; Niacinamide; Hyaluronic Acid,,Needs consistent use over months,all;mature;normal
+Panthenol (Pro-Vitamin B5),0,0,safe,yes,True,strong,AM/PM,Niacinamide; Hyaluronic Acid; Centella Asiatica; Ceramides,,Extremely well tolerated; rare allergy,acne-prone;all;dry;sensitive
+Petrolatum,0,0,safe,yes,True,strong,PM,Hyaluronic Acid; Glycerin; Ceramides,,Heavy feel; can trap impurities if skin isn't clean,dry;normal;sensitive
+Phenoxyethanol,0,0,safe,yes,False,strong,AM/PM,Ethylhexylglycerin; Caprylyl Glycol,,Capped at 1% in the EU; Rare sensitivity,all
+Phytosphingosine,0,0,safe,varies,True,moderate,AM/PM,Ceramide NP; Cholesterol; Niacinamide,,Well tolerated at low %,acne-prone;all;dry;sensitive
+Polyglutamic Acid,0,0,safe,yes,True,limited,AM/PM,Hyaluronic Acid; Glycerin; Ceramides,,Best layered under an occlusive,all;dry;mature;normal
+Potassium Sorbate,0,0,safe,yes,False,moderate,AM/PM,Sodium Benzoate; Phenoxyethanol,,Needs acidic pH to work; weak vs bacteria alone,all;sensitive
+Propanediol,0,0,safe,yes,True,moderate,AM/PM,Salicylic Acid; Niacinamide; Hyaluronic Acid,,Well tolerated,all;oily;sensitive
+Propolis Extract,0,0,safe,no,True,limited,AM/PM,Niacinamide; Centella Asiatica; Honey,,Not vegan; Avoid if allergic to bee products,acne-prone;all;dry;sensitive
+Resveratrol,0,0,caution,yes,True,moderate,PM,Ferulic Acid; Vitamin E; Niacinamide,,Oxidizes; usually used in PM,all;mature;normal
+Retinaldehyde,2,1,avoid,yes,True,strong,PM,Niacinamide; Hyaluronic Acid; Ceramides,Glycolic Acid; Salicylic Acid; Ascorbic Acid (Vitamin C); Benzoyl Peroxide,Still irritating to sensitive skin; Increases photosensitivity,acne-prone;combination;mature;normal;oily
+Retinol,2,1,avoid,yes,True,strong,PM,Niacinamide; Hyaluronic Acid; Peptides; Ceramides,Glycolic Acid; Salicylic Acid; Ascorbic Acid (Vitamin C); Benzoyl Peroxide,"Can cause dryness, peeling and irritation during retinization; Increases sun sensitivity",acne-prone;combination;mature;normal;oily
+Retinyl Palmitate,0,1,avoid,yes,True,moderate,PM,Niacinamide; Hyaluronic Acid; Vitamin E,Glycolic Acid; Ascorbic Acid (Vitamin C),Weakest retinoid; slow results; Still best avoided in pregnancy,dry;normal;sensitive
+Retinyl Retinoate,1,1,avoid,yes,True,limited,PM,Niacinamide; Hyaluronic Acid; Ceramides,Glycolic Acid; Ascorbic Acid (Vitamin C); Benzoyl Peroxide,Still a retinoid; avoid in pregnancy and use SPF,combination;mature;normal
+Rosehip Oil,0,1,safe,yes,True,limited,PM,Vitamin E; Squalane; Niacinamide,,Oxidizes quickly; store cool and dark,combination;dry;mature;normal
+Salicylic Acid,1,0,caution,yes,True,strong,AM/PM,Niacinamide; Hyaluronic Acid; Zinc,Retinol; Ascorbic Acid (Vitamin C); Glycolic Acid; Benzoyl Peroxide,Can over-dry skin; Mild photosensitivity,acne-prone;combination;oily
+Sea Buckthorn Oil,0,1,safe,yes,True,limited,PM,Vitamin E; Squalane; Rosehip Oil,,Can temporarily tint skin orange,dry;mature;normal
+Shea Butter,0,2,safe,yes,True,moderate,AM/PM,Ceramides; Squalane; Glycerin,,Too heavy for very oily or acne-prone skin,dry;mature;normal;sensitive
+Snail Mucin,0,0,safe,no,True,limited,AM/PM,Hyaluronic Acid; Niacinamide; Centella Asiatica,,Not vegan,acne-prone;all;dry;sensitive
+Sodium Ascorbyl Phosphate (SAP),0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Hyaluronic Acid; Vitamin E,,Milder antioxidant effect than LAA,acne-prone;all;oily;sensitive
+Sodium Benzoate,0,0,safe,yes,False,moderate,AM/PM,Potassium Sorbate; Phenoxyethanol,,Needs acidic pH; weak alone,all;sensitive
+Sodium Cocoyl Glycinate,0,0,safe,yes,False,moderate,AM/PM,Cocamidopropyl Betaine; Glycerin,,Premium vs sulfates,all;dry;sensitive
+Sodium Cocoyl Isethionate,0,0,safe,yes,False,moderate,AM/PM,Cocamidopropyl Betaine; Coco-Glucoside,,Well tolerated,all;dry;sensitive
+Sodium Hyaluronate,0,0,safe,yes,True,strong,AM/PM,Niacinamide; Retinol; Vitamin C; Ceramides,,Very low molecular weight may irritate sensitive skin in rare cases,all;dry;sensitive
+Sodium Hydroxide,0,0,safe,yes,False,strong,AM/PM,Carbomer; Acids (to buffer),,Caustic in raw form; safe at trace levels in finished products,all
+Sodium Lactate,0,0,safe,yes,True,moderate,AM/PM,Glycerin; Sodium PCA; Urea,,Can increase photosensitivity at high levels,all;dry;normal
+Sodium Laureth Sulfate (SLES),1,0,safe,yes,False,moderate,AM/PM,Cocamidopropyl Betaine; Glycerin,,Can be drying or stripping for dry/sensitive skin,normal;oily
+Sodium Lauryl Sulfate (SLS),2,0,safe,yes,False,strong,AM/PM,Cocamidopropyl Betaine; Glycerin,,Harsh and stripping; Common irritant for sensitive/dry skin,oily
+Sodium PCA,0,0,safe,yes,True,moderate,AM/PM,Hyaluronic Acid; Glycerin; Ceramides,,Well tolerated,all;dry;normal
+Squalane,0,1,safe,varies,True,strong,AM/PM,Retinol; Vitamin C; Niacinamide; Ceramides,,Very well tolerated,acne-prone;all;dry;oily;sensitive
+Sulfur,1,0,safe,yes,True,moderate,PM,Niacinamide; Hyaluronic Acid,,Drying; Distinctive smell,acne-prone;combination;oily
+Sweet Almond Oil,0,2,safe,yes,True,limited,AM/PM,Shea Butter; Vitamin E,,Avoid if nut-allergic,dry;normal;sensitive
+Tea Tree Oil,1,0,caution,yes,True,moderate,AM/PM,Niacinamide; Salicylic Acid,,Can irritate or sensitize undiluted; Essential oil allergen,acne-prone;combination;oily
+THD Ascorbate,0,1,safe,yes,True,moderate,AM/PM,Vitamin E; Niacinamide; Ferulic Acid,,Premium cost; Slower visible results than pure LAA,all;dry;mature;sensitive
+Tinosorb M,0,0,safe,yes,False,strong,AM,Tinosorb S; Uvinul A Plus,,Not approved in the US; Can leave slight cast in high amounts,all;normal;sensitive
+Tinosorb S,0,0,safe,yes,False,strong,AM,Tinosorb M; Avobenzone; Uvinul A Plus,,Not approved in the US (available in EU/Asia),all;normal;oily;sensitive
+Titanium Dioxide,0,1,safe,yes,False,strong,AM,Zinc Oxide; Antioxidants,,White cast; Weaker on long UVA alone,all;dry;sensitive
+Tocopheryl Acetate,0,2,safe,yes,True,moderate,AM/PM,Vitamin C; Ferulic Acid; Squalane,,Converts to active form more slowly than pure tocopherol,all;dry;mature;normal
+Tranexamic Acid,0,0,caution,yes,True,moderate,AM/PM,Niacinamide; Vitamin C; Alpha Arbutin; Kojic Acid,,Best results take 8-12 weeks,all;mature;sensitive
+Trehalose,0,0,safe,yes,True,limited,AM/PM,Hyaluronic Acid; Glycerin; Ceramides,,Very well tolerated,all;dry;sensitive
+Urea,0,0,safe,yes,True,strong,AM/PM,Ceramides; Glycerin; Lactic Acid,,Can sting compromised skin at high concentrations,dry;mature;normal
+Uvinul A Plus,0,0,safe,yes,False,strong,AM,Tinosorb S; Tinosorb M,,Not approved in the US,all;normal;oily
+Vitamin C (L-Ascorbic Acid),1,0,safe,yes,True,strong,AM,Vitamin E; Ferulic Acid; Hyaluronic Acid; Sunscreen,Retinol; Niacinamide; Benzoyl Peroxide; AHAs,Unstable and oxidizes easily; Can sting sensitive skin at low pH,combination;mature;normal;oily
+Vitamin E,0,2,safe,yes,True,strong,AM/PM,Vitamin C; Ferulic Acid; Squalane,,Can be comedogenic for very oily skin at high levels; Rare contact allergy,dry;mature;normal;sensitive
+Witch Hazel,1,0,safe,yes,True,limited,AM/PM,Niacinamide; Salicylic Acid,,Alcohol-distilled versions can be drying,acne-prone;combination;oily
+Xanthan Gum,0,0,safe,yes,False,moderate,AM/PM,Carbomer; Hyaluronic Acid,,Can feel tacky if overused,all
+Zinc (Sebum control),0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Salicylic Acid,,Well tolerated at cosmetic levels,acne-prone;combination;oily
+Zinc Oxide,0,1,safe,yes,True,strong,AM,Niacinamide; Antioxidants; Titanium Dioxide,,Can leave a white cast; Heavier finish than chemical filters,acne-prone;all;dry;sensitive
+Zinc PCA,0,0,safe,yes,True,moderate,AM/PM,Niacinamide; Salicylic Acid,,Well tolerated,acne-prone;combination;oily

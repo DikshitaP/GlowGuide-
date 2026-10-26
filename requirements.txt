@@ -1,0 +1,5 @@
+streamlit>=1.50
+pandas
+numpy
+scipy
+scikit-learn  # only needed for build_data.py
