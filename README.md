@@ -1,40 +1,256 @@
-# Glow Guide: Streamlit frontend for the Skincare Recommender v2
+# 🌸 Glow Guide — Personalized Skincare Recommendation System
 
-## Run it
+Glow Guide is a personalized skincare recommendation application designed to help users discover suitable skincare products based on their skin type, skin concerns, budget, and preferences.
+
+The application combines an ingredient knowledge base, product information, and a weighted recommendation algorithm to rank products according to their relevance to the user's needs. It also provides ingredient insights, skincare routine suggestions, and similar-product discovery to make skincare decisions easier.
+
+## ✨ Features
+
+- **Personalized Recommendations:** Recommends skincare products based on the user's skin type and specific concerns.
+- **Ingredient Analysis:** Matches relevant skincare ingredients to selected concerns and provides information about their benefits and suitability.
+- **Weighted Product Ranking:** Ranks products using ingredient relevance, skin-type compatibility, product quality, category relevance, and value for money.
+- **Budget-Based Filtering:** Helps users discover products according to their budget.
+- **Explainable Recommendations:** Displays recommendation scores and contributing factors to make product rankings easier to understand.
+- **Skincare Routine Builder:** Helps users organise products into routine steps, including cleansing, toning, treatment, moisturising, and optional additional care.
+- **Ingredient Compatibility Checks:** Identifies potential ingredient conflicts based on the available ingredient knowledge base.
+- **Similar Product Discovery:** Finds products with similar ingredient lists and helps users explore alternative options.
+- **User Authentication:** Supports user registration, login, and logout.
+- **Interactive Interface:** Provides a clean, skincare-inspired user interface built with Streamlit.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Core application logic |
+| Streamlit | Interactive web application |
+| Pandas | Data processing and manipulation |
+| NumPy | Numerical operations and array processing |
+| SciPy | Scientific computing and similarity calculations |
+| Altair | Data visualisation |
+| SQLite | Local user account storage |
+| PBKDF2-HMAC-SHA256 | Secure password hashing |
+
+## 📂 Project Structure
+
+```text
+skincare_app/
+│
+├── app.py                         # Main Streamlit application
+├── auth.py                        # User authentication and password hashing
+├── engine.py                      # Recommendation and ranking logic
+├── build_data.py                  # Generates portable data files
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation
+│
+├── data/
+│   ├── kb.csv                     # Skincare ingredient knowledge base
+│   ├── products.csv               # Skincare product catalogue
+│   └── arrays.npz                 # Precomputed matrices and scores
+│
+├── .streamlit/
+│   └── config.toml                # Streamlit theme configuration
+│
+└── .gitignore                     # Files excluded from Git
 ```
+
+## 🚀 Installation and Setup
+
+Follow these steps to run Glow Guide on your local machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+```
+
+Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your GitHub username and repository name.
+
+Alternatively, download the repository as a ZIP file and extract it.
+
+### 2. Create a Virtual Environment
+
+A virtual environment keeps the project's dependencies separate from other Python projects.
+
+**Windows:**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**macOS/Linux:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+From the project's root directory, execute:
+
+```bash
 streamlit run app.py
 ```
-`data/` is already built from your `skincare_recsys_artifacts.joblib`, so it works straight away.
 
-## What's in the app
-- **Products**: ranked cards with price, rating and key actives
-- **Why these?**: stacked chart of what makes up each product's score, plus a per-product breakdown
-- **Ingredients**: what to look for on the label, with evidence level and what not to mix
-- **Routine**: cleanser / serum / moisturiser with conflict warnings and total cost
-- **Find similar**: look-alike (and cheaper) products by ingredient list
+Once the application starts, open the local URL displayed in your terminal. It is usually:
 
-## Login / logout
-The app opens on a login page with a "Create account" tab. Accounts are stored in `users.db` (created automatically next to `app.py`)
-with salted PBKDF2 password hashes, never plain text. The sidebar shows who is signed in and has a **Log out** button,
-which leads to a "You've been signed out" page.
-Note: on Streamlit Community Cloud the disk resets when the app restarts, so accounts made there can disappear.
-For a permanent user list, host the app somewhere with a persistent disk, or point `AUTH_DB` at a database file on one.
-
-## If you retrain the model
+```text
+http://localhost:8501
 ```
-pip install scikit-learn joblib
+
+Create an account using the registration option and log in to explore the application.
+
+## 🧠 How the Recommendation System Works
+
+Glow Guide uses a **weighted, content-based recommendation approach** that evaluates the relationship between a user's skincare requirements and the available product information.
+
+The recommendation process follows these steps:
+
+1. **User Input:** The user selects their skin type, skin concerns, budget, and relevant product preferences.
+2. **Ingredient Matching:** The system identifies ingredients associated with the selected skin concerns using the ingredient knowledge base.
+3. **Suitability Evaluation:** Products are evaluated according to skin-type compatibility and applicable user preferences.
+4. **Product Scoring:** The recommendation engine combines multiple factors to calculate a weighted score for each product.
+5. **Ranking:** Products are ranked according to their calculated scores, helping users identify relevant options.
+6. **Recommendation Explanation:** The application displays scoring factors to help users understand why a product appears in the results.
+7. **Routine and Similarity Support:** Additional functionality helps users organise skincare products into routines and discover products with similar ingredient profiles.
+
+### 📊 Recommendation Scoring
+
+The recommendation engine uses the following default weights:
+
+| Recommendation Factor | Weight |
+|---|---:|
+| Ingredient Relevance | 55% |
+| Skin-Type Compatibility | 15% |
+| Product Quality | 15% |
+| Category Relevance | 10% |
+| Value for Money | 5% |
+| **Total** | **100%** |
+
+Ingredient relevance receives the highest weight because the system prioritises how well a product's ingredients match the user's skincare concerns.
+
+The final ranking depends on the available product data, user selections, and the scoring logic implemented in the application. A higher recommendation score indicates a stronger match according to the system; it does not guarantee that a product will be effective or suitable for every individual.
+
+## 📁 Dataset and Knowledge Base
+
+Glow Guide uses two primary datasets and a file containing precomputed data.
+
+### 1. Ingredient Knowledge Base — `kb.csv`
+
+Contains information about skincare ingredients, including:
+
+- Ingredient names and common names
+- Ingredient categories and descriptions
+- Benefits and associated skin concerns
+- Suitable skin types
+- Comedogenic ratings and irritation information
+- Pregnancy-related safety metadata
+- Vegan status and origin
+- Typical concentrations and evidence levels
+- Ingredient compatibility information
+
+### 2. Product Catalogue — `products.csv`
+
+Contains skincare product information, including:
+
+- Product names and brands
+- Product categories and subcategories
+- Product prices
+- Ingredient lists
+- Ratings and number of ratings
+- Product links and other available attributes
+
+### 3. Precomputed Data — `arrays.npz`
+
+Stores precomputed matrices and scores used by the recommendation engine.
+
+**Note:** Recommendation quality depends on the completeness and reliability of the underlying data. Missing, outdated, or inaccurate product information may affect the results.
+
+## 🔐 User Authentication
+
+Glow Guide includes a basic authentication system that supports:
+
+- User registration
+- Login and logout
+- Local account storage using SQLite
+- Salted password hashing using PBKDF2-HMAC-SHA256
+
+User account information is stored in a local `users.db` file created when the application runs.
+
+The local database should not be committed to GitHub because it may contain user account information. For production deployment, a persistent database and additional security controls should be considered.
+
+## ☁️ Deployment
+
+Glow Guide can be deployed using Streamlit Community Cloud.
+
+1. Push the project to a GitHub repository.
+2. Visit [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Sign in and connect your GitHub account.
+4. Create a new application.
+5. Select your repository and deployment branch.
+6. Set the main application file to `app.py`.
+7. Deploy the application.
+
+Ensure that `requirements.txt` and all required files inside the `data/` directory are included in the repository.
+
+**Important:** Local SQLite storage may not persist across application restarts or redeployments on hosting platforms with temporary storage. Use an appropriate persistent database if user accounts must be retained.
+
+## 🔄 Rebuilding the Data Files (Optional)
+
+The project includes `build_data.py`, which can regenerate the portable data files from the original `skincare_recsys_artifacts.joblib` artifact.
+
+If you have that source artifact, install the additional dependencies:
+
+```bash
+pip install joblib scipy scikit-learn
+```
+
+Then execute:
+
+```bash
 python build_data.py skincare_recsys_artifacts.joblib
 ```
-This rewrites `data/` (plain CSV and NumPy files, so no version clashes between machines).
 
-## Files
-- `app.py`: the web UI
-- `auth.py`: sign-up / login (SQLite + hashed passwords)
-- `engine.py`: the notebook's Section 6 scoring engine (same logic and weights)
-- `build_data.py`: converts the notebook's joblib into `data/`
-- `data/`: kb.csv (ingredients), products.csv (1,926 products), arrays.npz (matrices and ML scores)
-- `.streamlit/config.toml`: theme colours
+The generated files are written to the `data/` directory.
 
-## Deploy
-Push this folder to GitHub, then create an app on Streamlit Community Cloud with `app.py` as the entry file.
+This step is optional when the required data files are already included in the repository.
+
+## 🧪 Future Enhancements
+
+Potential improvements include:
+
+- Expanding the ingredient knowledge base and product catalogue.
+- Improving handling of missing or incomplete product information.
+- Adding automated tests for recommendation accuracy and authentication.
+- Introducing a persistent database for deployed applications.
+- Updating product prices and availability more regularly.
+- Collecting user feedback to evaluate recommendation relevance.
+- Improving accessibility and mobile responsiveness.
+- Adding more detailed explanations of ingredient suitability and compatibility.
+
+## ⚠️ Disclaimer
+
+Glow Guide is an educational skincare recommendation tool and is not intended to diagnose, treat, or prevent medical conditions.
+
+Recommendations are generated from available ingredient and product data. They do not guarantee clinical effectiveness, personal compatibility, or safety. Individual skin responses vary, and product information may be incomplete or outdated.
+
+Users should review product labels, consider their individual sensitivities, and consult a qualified dermatologist or healthcare professional for persistent skin concerns or questions about ingredient safety.
+
+## 👩‍💻 Project Overview
+
+**Glow Guide — Personalized Skincare Recommendation System**
+
+Built with Python, Streamlit, and a weighted recommendation algorithm to make skincare product discovery more personalised, transparent, and accessible.
+
+---
+
+⭐ If you find this project interesting, consider giving the repository a star!
