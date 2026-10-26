@@ -188,22 +188,6 @@ User account information is stored in a local `users.db` file created when the a
 
 The local database should not be committed to GitHub because it may contain user account information. For production deployment, a persistent database and additional security controls should be considered.
 
-## ☁️ Deployment
-
-Glow Guide can be deployed using Streamlit Community Cloud.
-
-1. Push the project to a GitHub repository.
-2. Visit [Streamlit Community Cloud](https://share.streamlit.io/).
-3. Sign in and connect your GitHub account.
-4. Create a new application.
-5. Select your repository and deployment branch.
-6. Set the main application file to `app.py`.
-7. Deploy the application.
-
-Ensure that `requirements.txt` and all required files inside the `data/` directory are included in the repository.
-
-**Important:** Local SQLite storage may not persist across application restarts or redeployments on hosting platforms with temporary storage. Use an appropriate persistent database if user accounts must be retained.
-
 ## 🔄 Rebuilding the Data Files (Optional)
 
 The project includes `build_data.py`, which can regenerate the portable data files from the original `skincare_recsys_artifacts.joblib` artifact.
